@@ -39,6 +39,7 @@ export default function Adddeleteitem(props) {
                     placeholder="Enter text"
                     value={inputText}
                     onChange={(e) => setInputText(e.target.value)}
+                    style={{ padding: "8px" }}
                 />
                 <button onClick={handleAdd} style={{ marginLeft: "10px", padding: "8px" }}>
                     Add
